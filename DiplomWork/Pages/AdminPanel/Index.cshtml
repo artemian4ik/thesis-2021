@@ -1,0 +1,23 @@
+﻿@page
+@model IndexModel
+@{
+    /*if (context.Request.Cookies.ContainsKey("name"))
+    {
+        string name = context.Request.Cookies["name"];
+        ViewData["Title"] = "Home page";
+    }*/
+    //}
+    ViewData["Title"] = "Admin Panel";
+}
+
+<div class="row">
+    <h1 class="display-4">Добро пожаловать</h1>
+    <span class="heading">АВТОРИЗАЦИЯ</span>
+
+    <div>
+        <input type="text" name="login" />
+        <input type="password" name="password" />
+        <input type="button" value="ВОЙТИ" name="auth" />
+    </div>
+</div>
+  
